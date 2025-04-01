@@ -1,0 +1,138 @@
+<!-- Rendu HTML n1:
+Enoncé :
+Créer une page HTML pour présenter une personne (soi-même ou une autre personne) en utilisant diverses balises HTML structurantes et sémantiques. Le but est de construire un document bien organisé en utilisant les balises appropriées.
+Créer un fichier HTML sur VSCode (par exemple, presentation.html).
+Ajouter la structure de base d'un fichier HTML
+Ajouter un en-tête à la page qui contiendra :
+Un titre principal avec le nom de la personne.
+Une phrase d’introduction ou une citation dans un paragraphe.
+Créer une section principale comprenant plusieurs sous-sections pour organiser les différentes parties de la présentation.
+a) Présentation générale :
+Créer une première section avec un sous-titre pour présenter la personne (nom, âge, profession, ville, etc.).
+b) Loisirs et intérêts :
+Dans une nouvelle section, décrire les hobbies ou centres d’intérêt de la personne en utilisant une liste non ordonnée.
+c) Parcours professionnel ou académique :
+Ajouter une section avec une liste ordonnée pour détailler les étapes importantes du parcours professionnel ou académique.
+d) Compétences ou informations supplémentaires :
+Créer une autre section pour inclure des informations supplémentaires comme les compétences, les langues parlées, etc., en utilisant un tableau.
+Ajouter un pied de page avec le nom de la personne et un lien vers un site web ou un réseau social.
+Utiliser des balises sémantiques comme <article>, <aside>, ou d'autres, si pertinent, pour structurer la page de manière encore plus précise.
+Bonus :
+Ajouter des images avec des légendes
+Ajouter des citations plus stylées. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>presentation.html</title>
+</head>
+<body>
+    <header>
+        <h1>Boris Cyrulnik</h1>
+        <p>“L'évolution ne connait pas la marche arrière.”</p>
+        <nav>
+            <ul>
+                <li><a href="#Présentation générale">Présentation générale</a></li>
+                <li><a href="#Formation-et-carrière">Formation et carrière</a></li>
+                <li><a href="#Ouvrages">Ouvrages</a></li>
+                <li><a href="#Honneurs-et-Distinctions">Honneurs et Distinctions</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+        <section>
+            <h2 id="Presentation-generale">Présentation générale</h2>
+            <ul>
+                <li>Boris Cyrulnik</li>
+                <li>87 ans</li>
+                <li>Bordeaux</li>
+                <li>Neuropsychologue et psychanaliste</li>
+                <li>Spécialiste du concept de la résilience</li>
+            </ul>
+            
+        </section>
+        <section>
+            <h2 id="Formation-et-carrière">Formation et carrière</h2>
+            <ul>
+                <li>Lycée Jacques-Decour à Paris</li>
+                <li>Faculté de médecine de Paris</li>
+                <li>Psychiatre</li>
+                <li>psychanaliste</li>
+                <li>Neurologue</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2 id="Ouvrages">Ouvrages</h4>
+            <ol>
+                <li>Mémoire de singe et paroles d'homme</li>
+                <li>Sous le signe du lien</li>
+                <li>La Naissance du sens</li>
+                <li>L'Homme, la Science et la Société</li>
+            </ol>
+           
+        </section>
+        
+        <section>
+            <h2 id="Honneurs-et-Distinctions">Honneurs et Distinctions</h2>
+            <table>
+    
+                <thead>
+                  <tr>
+                    <th scope="col">Honneurs</th>
+                    <th scope="col">-</th>
+                    <th scope="col">Distinctions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Docteur honoris causa (2020)</td>
+                    <td></td>
+                    <td>Grand officier de l'ordre national du Mérite(2025)</td>
+                  </tr>
+                  <tr>
+                    <td>Prix de la laïcité (2002)</td>
+                    <td></td>
+                    <td>Prix du Livre Psychologique (2014)</td>
+                  </tr>
+                  <tr>
+                  
+              </table>
+    </main>
+          
+    </section>
+    <br><br>
+
+    <article>
+        <h3>Article 1</h3>
+        Le journaliste scientifique Nicolas Chevassus-au-Louis explique dans une enquête que Boris Cyrulnik raconte « peu ou prou la même chose » dans ses 18 livres (2,5 millions d’exemplaires vendus) avec de nombreuses banalités, des contradictions et des références, notamment scientifiques, défaillantes (non référencées, invérifiables). 
+        Son statut de scientifique y est aussi questionné puisque : il n’exerce plus comme médecin depuis 1999, il n’est pas éthologue (ce qu’il confirme au journaliste) et il n’est guère cité dans les publications académiques. 
+        Concernant la notion empruntée de résilience, le journaliste ajoute qu’il se contente « dans ses livres d’enchaîner les anecdotes sans esquisser la moindre théorisation sérieuse » alors même que des discussions ont cours dans le milieu scientifique
+    </article>
+        
+    <figure>
+        <img src="boris-cyrulnik.webp" alt="photo de boris-cyrulnik">
+        <figcaption>Boris Cyrulnik</figcaption>
+
+    </figure>
+    
+      <time datetime="2025-04-01">1er avril 2025</time>
+      <p>
+        <time datetime="13:00">13:00</time>
+      </p>
+
+      <br>
+
+    <p><q>Contrairement aux États-Unis, où le terme "résilience" est d'usage courant, 
+    tel un marqueur d'optimisme, en Europe il est plus difficile de l'imposer,
+      comme si nous avions un penchant pour le misérabilisme.</q></p>
+    
+    <footer>
+        <a href="https://fr.wikipedia.org/wiki/Boris_Cyrulnik">Salma NAJI</a>
+    </footer>
+
+</body>
+</html>
